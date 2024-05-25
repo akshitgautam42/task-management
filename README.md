@@ -83,14 +83,22 @@ Frontend:
 Backend :
 
 ```bash
-- src
-  - controllers
-    - taskController.ts
+  - config
+	- db.js
+  - controller
+    - taskController.js
+  - middlewares
+	- errorHandler.js
   - models
-    - taskModel.ts
+    - tasks.js
   - routes
-    - taskRoutes.ts
-  - app.ts
+    - taskRoutes.js
+  - tests
+	- taskRoutes.test.js
+	- validators.test.js
+  - utils
+	- validators.js
+  - server.js
 - package.json
 - tsconfig.json
 ```
